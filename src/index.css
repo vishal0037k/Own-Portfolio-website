@@ -1,0 +1,32 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+body h1{
+  font-size: 1.8rem;
+  font-size: 40px;
+    line-height: 1.65em;
+}
+
+.bold{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+:root {
+  --primary-color: #321961;
+  --secondary-color: #5530A0;
+  --tertary-color: #9460fc33;
+  --text-color: #000000;
+  --background-color: #F6F3FC;
+  --button-color: #FF4500;
+}
+
+html {
+  scroll-behavior: smooth;
+}

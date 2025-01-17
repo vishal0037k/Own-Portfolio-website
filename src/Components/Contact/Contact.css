@@ -1,0 +1,242 @@
+:root {
+    --primary-color: #321961;
+    --secondary-color: #5530A0;
+    --tertary-color: #9460fc33;
+    --text-color: #000000;
+    --background-color: #F6F3FC;
+    --button-color: #FF4500;
+}
+
+.main {
+    margin: auto;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    background-color: var(--tertary-color);
+    height: 90vh;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.main-flex {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 95%;
+    margin:10px auto;
+}
+.contact-form {
+    padding: 10px 0px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    width: 40%;
+    margin: auto;
+}
+
+.together {
+    color: var(--secondary-color);
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+    background: linear-gradient(175deg, #210c47,#854df5, #210c47);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.c-para{
+    font-size: 13px;
+    text-align: left;
+    max-width: 450px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: black;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+.contact-form label {
+    margin-bottom: 10px;
+    font-size: 13px;
+   
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #111111;
+    background-color: var(--background-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+    color: white;
+}
+
+.contact-form textarea {
+    height: 70px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    color: var(--text-color);
+}
+
+.contact-form button {
+    padding: 10px 30px;
+    background-color: var(--secondary-color);
+    font-weight: bolder;
+    font-size: 23px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 20px;  
+}
+
+.contact-form button:hover {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.one {
+    padding: 10px;
+}
+.one p{
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.email {
+    height: 40px;
+    width: 40px;
+    margin-bottom: -20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.location {
+    height: 40px;
+    width: 40px;
+    margin-bottom: -20px;
+    border: none;
+    border-radius: 50%;
+}
+.phone{
+    height: 40px;
+    width: 40px;
+    margin-bottom: -20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.contact-img {
+    text-align: left;
+    margin: auto;
+}
+
+.contact-img a {
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: underline 2s ease-in-out;
+}
+.contact-img a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.contact-img a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(98, 0, 255); 
+    transform: scaleX(0);
+    transition: transform 0.3s ease; 
+}
+
+.contact-img a:hover::after {
+    transform: scaleX(1);
+}
+@media (max-width: 761px) {
+    .contact-section{
+        margin-top: -90px;
+    }
+    .main-flex {
+        gap: 10px;
+        text-align: center;
+    }
+   
+}
+
+@media (max-width: 430px) {
+    .contact-form {
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+        margin-top: -30px;
+    }
+
+    .contact-form input{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .contact-form textarea {
+        width: 100%;
+    }
+    .contact-form h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .one {
+        max-width: 80%;
+        margin: auto;
+    }
+    .together{
+       display: none;
+    }
+    .c-para{
+       text-align: center;
+       font-size: 15px;
+       margin-bottom: -10px;
+       margin-top: 50px;
+    }
+    .contact-img{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -40px;
+        max-width: 100%;
+    }
+    .one p{
+      display: none;
+    }
+    .one img{
+        display: none;
+    }
+    .contact-form{
+        margin-top: 20px;
+    }
+    .sub{
+        margin-top: 10px;
+       
+    }
+}

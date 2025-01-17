@@ -1,0 +1,176 @@
+:root {
+   --primary-color:#321961;
+   --secondary-color:#5530A0;
+   --tertary-color:#9460fc33;
+   --text-color: #000000;
+   --background-color:#F6F3FC;
+   --button-color: #FF4500;
+ }
+ .projects-main{
+    text-align: center;
+ }
+.projects-main h2{
+   font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    background: linear-gradient(90deg, #17023e, #9057f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    color: transparent;
+ }
+ .project-card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 20px;
+ }
+ .p1-img{
+    height: 280px;
+    width: 400px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+ }
+ .p-name{
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    
+ }
+ .p-para{
+    color: black;
+    max-width: 400px;
+    font-size: 13px;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-top: 10px;
+ }
+ .used-items{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 10px;
+ }
+ .used-items p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:var(--secondary-color);
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+
+ }
+ .bg-part{
+   background-color: var(--tertary-color);
+ }
+ .fb-img{
+   border: 2px solid black;
+   padding: 20px;
+ }
+ .button-git{
+   text-align: left;
+   margin-top: 20px;
+   transition: all 0.5s ease;
+ }
+ .button-git:hover{
+   transform: scale(1);
+   border: none;
+  border-radius: 10px;
+ }
+ .three span{
+   color: var(--secondary-color);
+   font-size: 13px;
+   font-weight: bold;
+ }
+ .view-git{
+   padding: 5px 10px;
+   background-color: var(--secondary-color);
+   color: white;
+   border: none;
+   border-radius: 4px;
+   font-weight: bold;
+ }
+ .view-git:hover{
+   background-color: var(--primary-color);
+   transition: all 0.3s ease-in-out;
+   transform: scale(1.2);
+   border-radius: 20px;
+ }
+ @media (max-width: 768px) {
+   .projects-main h2{
+      margin-top: 30px;
+      font-size: 30px;
+      padding: 0px;
+   }
+   .p1-img{
+      height: 20vh;
+      max-width: 80%;
+      margin: auto;
+   }
+   .fb-img{
+      height: 20vh;
+      max-width: 80%;
+      
+   }
+   .dig-clok{
+      height: 20vh;
+      max-width: 80%;
+      margin-left: 30px;
+   }
+   .project-card1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding: 10px;
+      margin: auto;
+   }
+   .p-para , .p-name{
+      max-width: 80%;
+      margin: auto;
+   }
+   .used-items{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      max-width: 80%;
+      gap: 10px;
+      margin: auto;
+   }
+   .used-items .three{
+      text-align: center;
+   }
+   .button-git{
+      text-align: center;
+      margin-top: 10px;
+    }
+    .view-git{
+      padding: 10px 30px;
+    }
+ }
+ @media (max-width: 468px) {
+  .project-card1{
+   margin-bottom: 20px;
+   background-color: var(--tertary-color);
+  }
+   .p-para{
+      display: none;
+   }
+   .p-name{
+      max-width: 100%;
+   }
+  .three{
+   display: none;
+  }
+  .p1-img{
+   display: none;
+  }
+ }

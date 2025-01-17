@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #321961;
+    --secondary-color: #5530A0;
+    --tertary-color: #9460fc33;
+    --text-color: #000000;
+    --background-color: #F6F3FC;
+    --button-color: #FF4500;
+}
+
+.skills-section {
+    text-align: center;
+    max-width: 95%;
+    margin: auto;
+    padding: 50px 0;
+    padding-bottom: 50px;
+}
+
+/* General styles for the skills section */
+.skw {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    background: linear-gradient(175deg, #210c47, #854df5, #210c47);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Container for the skill cards */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Individual skill box */
+.skbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    width: 120px;
+    gap: 10px;
+}
+
+/* Skill card styles */
+.skill-card {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 130%;
+    height: 150px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--tertary-color);
+}
+
+.skbox p {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.skill-card:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Image styles */
+.img-size {
+    width: 100px;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.figma {
+    width: 80px;
+    height: auto;
+}
+
+/* Hover effects */
+.skbox:hover {
+    transform: scale(1.05);
+}
+
+.skbox:hover .img-size {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .skbox {
+        margin: -90px 5px 30px 5px;
+    }
+    .skills-container{
+        max-width: 100%;
+        margin: auto;
+    }
+    .skw{
+        padding-bottom: 100px;
+        margin-top: -50px;
+    }
+}

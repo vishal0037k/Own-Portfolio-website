@@ -1,0 +1,307 @@
+:root {
+    --primary-color:#321961;
+    --secondary-color:#5530A0;
+    --tertary-color:#824DEE;
+    --text-color: #000000;
+    --background-color:#F6F3FC;
+    --button-color: #FF4500;
+  }
+.main-home{
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    height: 100vh;
+}
+.home-content .dev{
+    font-size: 16px;
+    font-weight: bold;
+}
+.home-content h1{
+    background: linear-gradient(90deg, #321961,#824DEE,#321961);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+    font-size: 40px;
+    line-height: 1.65em;
+}
+.profile{
+    height: 80vh;
+}
+.check-content{
+    font-weight: bold;
+}
+.checkout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+
+.line{
+    margin-top: 10px;
+    width: 10px;
+    height: 2px;
+    background-color: var(--tertary-color);
+}
+.box1 img{
+    border-radius: 30%;
+    margin-bottom: -15px;
+    height: 40px;
+    width: 40px;
+}
+.box1 img:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+.box2 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    margin-top: 15px;
+}
+.box2 img:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+.box3 img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+}
+.box3 img:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 95%;
+    margin: 0px auto;
+    height: 100vh;
+    border-radius: 10px;
+}
+.logo-img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -7px;
+    padding: 5px;
+}
+.greet {
+    font-size: 3rem;
+    text-align: left;
+    margin-top: -60px;
+}
+.name{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.home-content p {
+    font-size: 13px;
+    margin-bottom: 30px;
+    max-width: 600px; 
+    text-align: left;
+    color: black;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 13px;
+}
+.download{
+    background-color:var(--secondary-color);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    font-size: 13px;
+}
+.btn:hover , .download:hover{
+    background-color: var(--primary-color);
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px; 
+}
+@media (max-width: 768px) {
+    .main-home{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .home-content h1{
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+        margin-top: -50px;
+    }
+    .home-content p{
+        text-align: center;
+        max-width: 90%;
+    }
+    .checkout{
+        margin: 10px auto;
+        text-align: center;
+        gap: 13px;
+    }
+    .profile{
+        height: 300px;
+        width: 280px;
+        justify-content: center;
+        align-items: center;
+        margin-top: -60px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .line{
+        width: 50px;
+        text-align: center;
+    }
+}
+@media (max-width: 904px) {
+    .main-home {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .home-content {
+        text-align: center;
+        width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 2rem;
+        line-height: 1.5em;
+    }
+
+    .home-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .greet {
+        font-size: 2.5rem;
+        margin-top: -30px;
+    }
+
+    .name {
+        font-size: 2rem;
+        margin: 10px 0;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn, .download {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .checkout {
+        margin: 20px 0;
+        gap: 10px;
+    }
+
+    .check-content {
+        font-size: 14px;
+    }
+
+    .line {
+        width: 40px;
+        margin: 10px auto;
+    }
+
+    .box1 img, .box2 img, .box3 img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .profile {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    .logo-img {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-home{
+        margin-top: -300px;
+    }
+    .home-content h1 {
+        font-size: 1.8rem;
+    }
+ 
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .profile {
+       display: none;
+    }
+
+    .btn, .download {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .check-content {
+        font-size: 12px;
+    }
+
+    .box1 img, .box2 img, .box3 img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .greet {
+        font-size: 2rem;
+    }
+   .box1 a .git-img{
+        margin-top: -100px;
+        height: 28px;
+        width: 25px;
+    }
+}

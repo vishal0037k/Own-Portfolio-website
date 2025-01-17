@@ -1,0 +1,115 @@
+:root {
+    --primary-color:#321961;
+    --secondary-color:#5530A0;
+    --tertary-color:#9460fc33;
+    --text-color: #000000;
+    --background-color:#eae3f8;
+    --button-color: #FF4500;
+  }
+ .about-main{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--tertary-color);
+    height: 100vh;
+    gap: 50px;
+ } 
+
+ .about-png{
+    height: 70vh;
+    margin: 100px 0px 0px 60px;
+ }
+.about-content {
+    padding: 10px 50px;
+    color: black;
+    border-radius: 10px;
+    margin: 20px; 
+    max-width: 50%; 
+    margin: auto; 
+    text-align: left;
+    transition: all 0.6s;
+}
+
+.about-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    background: linear-gradient(40deg, #2d0086, #9466f1, #9e6cf3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+}
+
+.about-content h3 {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    text-align: left; 
+    color: black;
+
+}
+
+.about-content p {
+    font-size: 13px; 
+    line-height: 1.6; 
+    margin-bottom: 20px;
+    text-align: left; 
+    color: black;
+}
+
+.about-content a {
+    text-align: left;
+    color: orangered; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.about-content a:hover {
+    text-decoration: 2px underline black; 
+}
+
+.about-content span {
+    font-weight: bold; 
+}
+.download{
+    background-color:var(--secondary-color);
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.download:hover{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+@media (max-width: 768px) {
+    .about-section{
+        margin-top: -100px;
+    }
+.about-png{
+   height: 35vh;
+   width: 90vw;    
+   text-align: center;
+   margin: auto;
+}
+.about-content{
+    padding: 0px 5px;
+    color: black;
+    max-width: 80%; 
+    margin: -90px 0px 0px 0px;
+    text-align: center;
+}
+.download{
+    margin: auto;
+}
+}
+
+@media (max-width: 600px) {
+    .about-section{
+        margin-top: -400px;
+    }
+}
