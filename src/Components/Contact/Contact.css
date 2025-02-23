@@ -174,9 +174,10 @@ h1 {
 .contact-img a:hover::after {
     transform: scaleX(1);
 }
+
 @media (max-width: 761px) {
     .contact-section{
-        margin-top: -90px;
+        margin-top: 10px;
     }
     .main-flex {
         gap: 10px;
@@ -191,9 +192,10 @@ h1 {
         padding: 10px;
         width: 100%;
         margin: auto;
-        margin-top: -30px;
     }
-
+.main{
+    height: auto;
+}
     .contact-form input{
         width: 100%;
         margin: auto;
@@ -215,16 +217,10 @@ h1 {
        display: none;
     }
     .c-para{
-       text-align: center;
-       font-size: 15px;
-       margin-bottom: -10px;
-       margin-top: 50px;
+        display: none;
     }
     .contact-img{
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: -40px;
-        max-width: 100%;
+       display: none;
     }
     .one p{
       display: none;
@@ -237,6 +233,5 @@ h1 {
     }
     .sub{
         margin-top: 10px;
-       
     }
 }

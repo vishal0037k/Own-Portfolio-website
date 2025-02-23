@@ -4,6 +4,7 @@ import './Project.css';
 import p1Image from '../../Assets/images/p1.jpg';
 import p2Image from '../../Assets/images/p2.jpg';
 import p3Image from '../../Assets/images/p3.jpg';
+import p4Image from '../../Assets/images/p4.jpg';
 const Projects = () => {
     return (
         <>
@@ -52,7 +53,7 @@ const Projects = () => {
  </div>
                </div>
             </div>
-        </div>
+        
  {/* //  THIRD  PROJECT // */}  
  <div className="project-card1">
                <div className="project-content">
@@ -74,6 +75,31 @@ const Projects = () => {
                <img className='p1-img dig-clok' src={p3Image} alt='Project1'></img>
                </div>
             </div>
+
+{/* //  Fourth  PROJECT // */} 
+<div className="project-card1 bg-part">
+                <div className="project-img">
+               <img className='p1-img' src={p4Image} alt='Project1'></img>
+               </div>
+               <div className="project-content">
+             <p className='p-name'>Cafe Website</p>
+             <p className='p-para'>Built a responsive and visually appealing website for a café and restaurant using React Vite. The site includes sections like Home, Location, Photos, Menu, Contact, and About, providing an intuitive user experience. Designed for easy navigation and showcasing the café’s ambiance and offerings, without an online ordering feature.
+             </p>
+             <div className="used-items">
+                <div className="three"><span>HTML</span></div>
+                <div className="three"><span>CSS</span></div>
+                <div className="three"> <span>JAVASCRIPT</span></div>
+                <div className="three"> <span>REACT</span></div>
+                <div className="three"> <span>EMAIL.JS</span></div>
+             </div>
+<div className="button-git">
+<a href="https://little-break.netlify.app/" target='_blank'><button className='view-git'>View Live</button></a>
+ </div>
+               </div>
+            </div>
+
+
+</div> 
 </>   
     );
 };

@@ -304,4 +304,15 @@
         height: 28px;
         width: 25px;
     }
+    .vp{
+        margin: 5px;
+        padding: 15px 30px;
+        font-size: 13px;
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        border: none;
+    }
+    .vp:hover{
+        border-radius: 20px;
+    }
 }

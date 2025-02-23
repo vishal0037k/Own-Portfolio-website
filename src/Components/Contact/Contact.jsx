@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'; // Import EmailJS
+import emailjs from 'emailjs-com';
 import './Contact.css';
 import emailImage from '../../Assets/images/E-mail.jpg'; 
 import locationImage from '../../Assets/images/location.jpg'; 

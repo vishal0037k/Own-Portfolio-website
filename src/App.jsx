@@ -8,12 +8,14 @@ import About from './Components/About/About';
 import Projects from './Components/Projects/Project';
 import Footer from './Components/Footer/Footer';
 import Arrow from './Components/Arrow/Arrow';
+
 function App() {
  return (
     <>
 <div className='bg'>
       <Navbar />
 <div>
+ 
 <section id="home" className="home-section">
                 <Home />
 </section>
@@ -28,8 +30,9 @@ function App() {
 
 <section id="skills"  className="skills-section">
                   <Skills />
+                  
 </section>
-
+     
 <section id="contact" className='contact-section'>
                   <Contact />
 </section>

@@ -3,10 +3,13 @@ import profileImage from '../../Assets/images/home2.png'
 import logoImage from '../../Assets/images/logo.png'; 
 import linkedinImage from '../../Assets/images/linkedin.png'; 
 import gitImage from '../../Assets/images/git.png'; 
-import mailImage from '../../Assets/images/mail.png'; 
+import mailImage from '../../Assets/images/mail.png';
+
 const Home = () =>{
     return(
         <>
+        <div className="bganimation">
+        
         <div className="main-home">
         <div className="home-content">
                         <p className='dev'><span><img className='logo-img' src={logoImage} alt='.'></img></span>Full stack Developer (MERN)</p>
@@ -19,7 +22,7 @@ const Home = () =>{
                         <a href="/resume.pdf" download>
             <button className='download'>Download my resume</button>
             </a>
-                        <a href="#projects" className="btn">
+                        <a href="#projects" className="btn vp">
                             View My Projects
                             </a>
                         </div>
@@ -47,6 +50,7 @@ const Home = () =>{
  <div className="profile">
   <img className='profile' src={profileImage} alt='profile'></img>
  </div>
+</div>
 </div>
         </>
     )
