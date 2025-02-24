@@ -35,7 +35,7 @@ const Home = () =>{
       </a>
     </div>
     <div className="box2">
-    <a href="https://www.linkedin.com/in/vishal-4b079427a/" target='_blank'>
+    <a href="https://www.linkedin.com/in/vishal-choudhary-4b079427a/" target='_blank'>
       <img className='li-img' src={linkedinImage} alt='Linkdein'></img>
       </a>
     </div>
