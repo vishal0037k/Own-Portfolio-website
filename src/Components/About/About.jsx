@@ -17,7 +17,7 @@ const About = () => {
             <h3 className='bold'>My Hobbies</h3>
             Listening to music, Travelling & Love to live in peace.
             </p>
-            <a href="https://www.instagram.com/developer_vishal_37?igsh=Z3ByYjk2bWxzZXU1" target='_blank'>
+            <a href="https://www.instagram.com/dev_vishal_37?igsh=MTUyOGR0bnJkOGc3Zg==" target='_blank'>
             <button className='download'>Visit instagram Profile</button>
             </a>
             </div>
