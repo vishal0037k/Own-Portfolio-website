@@ -18,6 +18,11 @@
     -webkit-text-fill-color: transparent; 
     color: transparent;
  }
+ .task-box{
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+ }
  .project-card1{
     display: flex;
     justify-content: center;
@@ -157,6 +162,9 @@
     }
  }
  @media (max-width: 468px) {
+   .projects-main{
+      margin-top: 100px;
+   }
   .project-card1{
    margin-bottom: 20px;
    background-color: var(--tertary-color);
@@ -171,6 +179,26 @@
    display: none;
   }
   .p1-img{
+   /* display: none; */
+   height: 80px;
+   width: 120px;
+   margin: 20px;
+
+  }
+  .fb-img{
+   max-width: 100%;
+   padding: 1%;
+  }
+  .cafe-img{
+   max-width: 100%;
+   margin: 20px 20px;
+  }
+  .task-box{
+   display: flex;
+   gap: 20px;
+  }
+ 
+  .management{
    display: none;
   }
  }

@@ -195,6 +195,7 @@ h1 {
     }
 .main{
     height: auto;
+    margin-top: -50px;
 }
     .contact-form input{
         width: 100%;

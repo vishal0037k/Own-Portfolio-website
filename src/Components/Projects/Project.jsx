@@ -10,7 +10,56 @@ const Projects = () => {
         <>
         <div className="projects-main">
             <h2>My Recents Works</h2>
-            <div className="project-card1">
+            
+{/* //  FIRST PROJECT // */}  
+
+ <div className="project-card1">
+               <div className="project-content">
+             <p className='p-name'>Weather App</p>
+             <p className='p-para'>A responsive weather application built using React and OpenWeatherMap API. It allows users to search for real-time weather updates for any city, including current temperature, minimum and maximum temperatures, and location details. The app features a clean and modern design with smooth animations and responsive styling optimized for devices.
+             </p>
+             <div className="used-items">
+                <div className="three"><span>HTML</span></div>
+                <div className="three"><span>CSS</span></div>
+                <div className="three"> <span>JAVASCRIPT</span></div>
+                <div className="three"> <span>REACT</span></div>
+                <div className="three"> <span>OPEN WEATHER API</span></div>
+             </div>
+<div className="button-git">
+<a href="https://current-weather-pr.netlify.app/" target='_blank'><button className='view-git'>View Live</button></a>
+ </div>
+               </div>
+               <div className="project-img">
+               <img className='p1-img dig-clok' src={p3Image} alt='Project1'></img>
+               </div>
+            </div>
+
+{/* //  SECOND PROJECT // */}
+<div className="project-card1 bg-part">
+                <div className="project-img">
+               <img className='p1-img cafe-img' src={p4Image} alt='Project1'></img>
+               </div>
+               <div className="project-content">
+             <p className='p-name'>Cafe Website</p>
+             <p className='p-para'>Built a responsive and visually appealing website for a café and restaurant using React Vite. The site includes sections like Home, Location, Photos, Menu, Contact, and About, providing an intuitive user experience. Designed for easy navigation and showcasing the café’s ambiance and offerings, without an online ordering feature.
+             </p>
+             <div className="used-items">
+                <div className="three"><span>HTML</span></div>
+                <div className="three"><span>CSS</span></div>
+                <div className="three"> <span>JAVASCRIPT</span></div>
+                <div className="three"> <span>REACT</span></div>
+                <div className="three"> <span>EMAIL.JS</span></div>
+             </div>
+<div className="button-git">
+<a href="https://little-break.netlify.app/" target='_blank'><button className='view-git'>View Live</button></a>
+ </div>
+               </div>
+            </div>
+
+
+ {/* //  THIRD  PROJECT // */}  
+
+       <div className="project-card1">
    <div className="project-content">
  <p className='p-name'>Institute UI</p>
  <p className='p-para'>
@@ -34,13 +83,15 @@ const Projects = () => {
    <img className='p1-img fb-img' src={p2Image} alt='Project1'></img>
    </div>
 </div> 
-{/* //  SECOND PROJECT // */}
+
+{/* //  Fourth  PROJECT // */} 
 <div className="project-card1 bg-part">
-                <div className="project-img">
-               <img className='p1-img' src={p1Image} alt='Project1'></img>
+   <div className="task-box">
+                <div className="project-img ">
+               <img className='p1-img task-img' src={p1Image} alt='Project1'></img>
                </div>
                <div className="project-content">
-             <p className='p-name'>Task Management App</p>
+             <p className='p-name'>Task<span className='management'> Management </span>App</p>
              <p className='p-para'>This Task Management App is a user-friendly tool designed to help you organize and track your daily tasks efficiently. It allows users to add tasks with a title, description, due date, and priority level. Tasks can be marked as complete, edited, or deleted, and a filtering option helps you view tasks by their status. With a clean and responsive design, it’s perfect for managing your workload on any device, whether on desktop or mobile. Stay productive and never miss a deadline with this app!
              </p>
              <div className="used-items">
@@ -53,52 +104,8 @@ const Projects = () => {
  </div>
                </div>
             </div>
-        
- {/* //  THIRD  PROJECT // */}  
- <div className="project-card1">
-               <div className="project-content">
-             <p className='p-name'>Weather App</p>
-             <p className='p-para'>A responsive weather application built using React and OpenWeatherMap API. It allows users to search for real-time weather updates for any city, including current temperature, minimum and maximum temperatures, and location details. The app features a clean and modern design with smooth animations and responsive styling optimized for devices.
-             </p>
-             <div className="used-items">
-                <div className="three"><span>HTML</span></div>
-                <div className="three"><span>CSS</span></div>
-                <div className="three"> <span>JAVASCRIPT</span></div>
-                <div className="three"> <span>REACT</span></div>
-                <div className="three"> <span>OPEN WEATHER API</span></div>
-             </div>
-<div className="button-git">
-<a href="https://current-weather-pr.netlify.app/" target='_blank'><button className='view-git'>View Live</button></a>
- </div>
-               </div>
-               <div className="project-img">
-               <img className='p1-img dig-clok' src={p3Image} alt='Project1'></img>
-               </div>
-            </div>
 
-{/* //  Fourth  PROJECT // */} 
-<div className="project-card1 bg-part">
-                <div className="project-img">
-               <img className='p1-img' src={p4Image} alt='Project1'></img>
-               </div>
-               <div className="project-content">
-             <p className='p-name'>Cafe Website</p>
-             <p className='p-para'>Built a responsive and visually appealing website for a café and restaurant using React Vite. The site includes sections like Home, Location, Photos, Menu, Contact, and About, providing an intuitive user experience. Designed for easy navigation and showcasing the café’s ambiance and offerings, without an online ordering feature.
-             </p>
-             <div className="used-items">
-                <div className="three"><span>HTML</span></div>
-                <div className="three"><span>CSS</span></div>
-                <div className="three"> <span>JAVASCRIPT</span></div>
-                <div className="three"> <span>REACT</span></div>
-                <div className="three"> <span>EMAIL.JS</span></div>
-             </div>
-<div className="button-git">
-<a href="https://little-break.netlify.app/" target='_blank'><button className='view-git'>View Live</button></a>
- </div>
-               </div>
-            </div>
-
-
+</div>
 </div> 
 </>   
     );

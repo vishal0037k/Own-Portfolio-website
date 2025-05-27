@@ -103,13 +103,22 @@
     margin: -90px 0px 0px 0px;
     text-align: center;
 }
-.download{
-    margin: auto;
-}
+
 }
 
 @media (max-width: 600px) {
+   
     .about-section{
         margin-top: -400px;
     }
+.about-content{
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+  .about-content p{
+    margin-top: -20px;
+  }
+  .download{
+    margin-top: 20px;
+  }
 }
