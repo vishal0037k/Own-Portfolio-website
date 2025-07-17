@@ -5,6 +5,7 @@ import p1Image from '../../Assets/images/p1.jpg';
 import p2Image from '../../Assets/images/p2.jpg';
 import p3Image from '../../Assets/images/p3.jpg';
 import p4Image from '../../Assets/images/p4.jpg';
+import p5Image from '../../Assets/images/wild.jpg';
 const Projects = () => {
     return (
         <>
@@ -91,7 +92,7 @@ const Projects = () => {
                <img className='p1-img task-img' src={p1Image} alt='Project1'></img>
                </div>
                <div className="project-content">
-             <p className='p-name'>Task<span className='management'> Management </span>App</p>
+             <p className='p-name'>Task Management App</p>
              <p className='p-para'>This Task Management App is a user-friendly tool designed to help you organize and track your daily tasks efficiently. It allows users to add tasks with a title, description, due date, and priority level. Tasks can be marked as complete, edited, or deleted, and a filtering option helps you view tasks by their status. With a clean and responsive design, it’s perfect for managing your workload on any device, whether on desktop or mobile. Stay productive and never miss a deadline with this app!
              </p>
              <div className="used-items">
@@ -106,6 +107,30 @@ const Projects = () => {
             </div>
 
 </div>
+
+{/* //  FIVETH PROJECT // */}  
+ <div className="project-card1">
+               <div className="project-content">
+             <p className='p-name'>Travel Website</p>
+             <p className='p-para'>The Wild Path is a full-stack travel exploration platform designed to showcase and manage adventurous trips across stunning destinations. Built using React, Vite, and custom CSS, the frontend features a vintage-inspired, responsive design with animated sections, QR code integration, and dynamic trip filtering. The backend, developed with Node.js, Express, and MongoDB, supports secure trip management, media uploads, and admin authentication.
+             </p>
+             <div className="used-items">
+                <div className="three"><span>HTML</span></div>
+                <div className="three"><span>CSS</span></div>
+                <div className="three"> <span>JAVASCRIPT</span></div>
+                <div className="three"> <span>REACT</span></div>
+                <div className="three"> <span>NODE.JS</span></div>
+                <div className="three"> <span>EXPRESS.JS</span></div>
+                <div className="three"> <span>MONGO DB</span></div>
+             </div>
+<div className="button-git">
+<a href="https://the-wild-path.netlify.app/" target='_blank'><button className='view-git'>View Live</button></a>
+ </div>
+               </div>
+               <div className="project-img">
+               <img className='p1-img dig-clok' src={p5Image} alt='Project5'></img>
+               </div>
+            </div>
 </div> 
 </>   
     );
